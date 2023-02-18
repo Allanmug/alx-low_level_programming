@@ -1,11 +1,10 @@
 #include <stdio.h>
 /**
  * main - program that uses print f to print
- * Returns : value
+ * Return: 0
  */
 int main(void)
 {
-char word[]="with proper grammar, but the outcome is a piece of art,";
-printf("%l\n",word);
-return 0;
+printf("with proper grammar, but the outcome is a piece of art,\n");
+return (0);
 }
