@@ -1,4 +1,4 @@
-#iclude <stdio.h>
+#include <stdio.h>
 /**
  * main - program that uses print f to print
  * Returns : value
