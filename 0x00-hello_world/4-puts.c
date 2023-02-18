@@ -1,6 +1,9 @@
-#include  <stdio.h>
-int main(){
-	char word[]="\"Programming is like building a multilingual puzzle" ;
-	puts(word);
-	return 0;
+#include <stdio.h>
+/**main - printing using puts fuction
+ * Return: 0 
+ */
+int main(void)
+{
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
