@@ -6,7 +6,7 @@
 int main(void)
 {
 int num;
-for (num = 1 ; ch <= 9; num++)
+for (num = 1 ; num <= 9; num++)
 {
 	printf(num);
 }
