@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
 /**
  * main - a program to print numbers from 0 to 9 with spaces
  * Return: 0
@@ -18,6 +17,5 @@ if (num == '8')
 	putchar(num);
 }
 }
-write(1, '\n', sizeof('\n'));
 return (0);
 }
