@@ -1,27 +1,22 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
- * main - a progra to determine whether a number is postive or negative
+ * main - a program to print alphabet in lowercase and uppercase
  * Return: 0
  */
 int main(void)
 {
-int n;
-
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-if (n == 0)
+char ch;
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-	printf("%d is zero\n", n);
-}
-else if  (n < 0)
+	putchar(ch);
+if(ch == 'z')
 {
-	printf("%d is negative\n", n);
-}
-else
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-	printf("%d is positive\n", n);
+	putchar(toupper(ch));
 }
+}
+}
+putchar('\n');
 return (0);
 }
