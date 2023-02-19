@@ -17,6 +17,5 @@ if(num == '8')
 	putchar(num);
 }
 }
-putchar('\n');
 return (0);
 }
