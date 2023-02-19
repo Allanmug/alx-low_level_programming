@@ -10,7 +10,7 @@ char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 {
 	putchar(ch);
-if(ch == 'z')
+if (ch == 'z')
 {
 for (ch = 'a'; ch <= 'z'; ch++)
 {
