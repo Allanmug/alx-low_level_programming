@@ -8,9 +8,10 @@ int main(void)
 char ch;
 for(ch = 'a'; ch <= 'z'; ch++)
 {
-if (ch = 'z')
+if (ch == 'z')
 {
-	putchar(ch"\n")
+	putchar(ch);
+	putchar("\n");
 }
 else
 {
