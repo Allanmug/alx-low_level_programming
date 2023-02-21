@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <string.h>
 #include "main.h"
 /**
  * main - Aprogram to print the word _putchar
@@ -13,6 +11,6 @@ for (i=0; i<8; i++)
 {
 	_putchar(ch[i]);
 }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
