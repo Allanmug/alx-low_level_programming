@@ -6,19 +6,13 @@
  */
 int _islower(int c)
 {
-	int one;
-	int zro;
-	one='1';
-	zro = '0';
 
 if (c >= 'a' && c <= 'z')
 {
-	_putchar(one);
 	return (1);
 }
 else
 {
-	_putchar(zro);
 	return (0);
 }
 }
