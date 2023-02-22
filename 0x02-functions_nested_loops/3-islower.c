@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *_islower - a program to show if the char c is lower
- *Descriptionn: 'c is a parameter to be compared'
+ *_islower(int c) - a program to show if the char c is lower
+ *Description: 'c is a parameter to be compared'
  *Return: 0 or 1
  */
 int _islower(int c)
