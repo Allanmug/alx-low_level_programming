@@ -2,10 +2,10 @@
 
 /**
  *_abs - a progrma to print the absolute of a number
- *
+ *@n : the input character
  *Return: int or sign
  */
-int _abs(int)
+int _abs(int n)
 {
 	int n;
 if (n > 0)
