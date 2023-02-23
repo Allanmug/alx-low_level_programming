@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * add - A program to give the sum of two numbers
