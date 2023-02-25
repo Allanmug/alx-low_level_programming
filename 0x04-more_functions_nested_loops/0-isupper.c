@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_islower - a program to show if the char c i uppercase
+ *_isupper - a program to show if the char c i uppercase
  *@c: the character to be checked
  *Description: 'c stands for any int passed in'
  *Return: 0 or 1
