@@ -4,6 +4,7 @@
  *_isdigit - a program to show if the charactor c is a number
  *@a: the number to be checked
  *@b: the number to be checked
+ *@mul: product of the numbers
  *Description: 'c stands for any int passed in'
  *Return: int
  */
