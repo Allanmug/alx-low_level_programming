@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_isdigit - a program to show if the charactor c is a number
+ *mul - a program to show if the charactor c is a number
  *@a: the number to be checked
  *@b: the number to be checked
  *Description: 'c stands for any int passed in'
