@@ -7,7 +7,7 @@
  *Description: 'c stands for any int passed in'
  *Return: int
  */
-int mul(int a, int b);
+int mul(int a, int b)
 {
 	int mul;
 
